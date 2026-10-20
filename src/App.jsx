@@ -4,7 +4,7 @@ const RawBlock0 = "\n          {\n            \"@context\": \"https://schema.org
 const RawBlock1 = "\n                    .Icon-06_svg__st0 {\n                      fill: none;\n                      stroke: #3a3b3a;\n                      stroke-linecap: round;\n                      stroke-linejoin: round;\n                      stroke-width: 11.7px;\n                    }\n                  ";
 const RawBlock2 = "\n                      .meet-your-coaches-icon_svg__st0 {\n                        fill: none;\n                        stroke: #3a3b3a;\n                        stroke-linecap: round;\n                        stroke-linejoin: round;\n                        stroke-width: 11.7px;\n                      }\n                    ";
 const RawBlock3 = "\n                      .bfb-events-icon_svg__st1 {\n                        fill: none;\n                        stroke: #3a3b3a;\n                        stroke-linecap: round;\n                        stroke-linejoin: round;\n                        stroke-width: 11.7px;\n                      }\n                    ";
-const SRCDOC_4 = "<!DOCTYPE html> <html><meta charset=utf-8>\n<style>html,body,#mapDiv{height:100%;margin:0;padding:0}</style>\n<meta name=referrer content=no-referrer><meta http-equiv=content-security-policy content=\"default-src 'none'; font-src 'self' data:; img-src 'self' data:; style-src 'unsafe-inline'; media-src 'self' data:; script-src 'unsafe-inline' data:; object-src 'self' data:; frame-src 'self' data:; form-action 'none'; base-uri 'none';\"></head>\n <body>\n <div id=mapDiv></div>\n \n <script></script>\n <link>\n <script></script>\n \n<script></script><div></div>";
+const SRCDOC_4 = "";
 const RawBlock5 = "";
 const RawBlock6 = "";
 const RawBlock7 = "";
@@ -772,15 +772,6 @@ export default function App() {
             </div>
           </section>
         </div>
-        <div className={"my-[50px]"}></div>
-        <section className={"lg:w-[95vw] mx-auto"}>
-          <div className={"flex flex-col items-center text-center mt-[20px] mb-[24px] lg:mb-[48px]"}>
-            <h2 className={"font-display font-semibold uppercase tracking-wide text-2xl md:text-3xl lg:text-4xl text-dark-grey"}>
-              {"WE ARE HERE"}
-            </h2>
-          </div>
-          <iframe src="" className={"w-full h-[614px]"} title={"Body Factory Bali"} loading={"lazy"} sandbox={"allow-popups allow-top-navigation-by-user-activation allow-scripts allow-modals allow-popups allow-downloads allow-pointer-lock allow-presentation"} srcDoc={SRCDOC_4}></iframe>
-        </section>
       </main>
       <footer>
         <div className={"group"}>
