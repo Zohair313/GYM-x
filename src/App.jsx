@@ -308,8 +308,22 @@ export default function App() {
               </div>
             </div>
           </div>
-          <div className={"absolute z-[10] top-[22%] sm:top-[26%] lg:top-[30%] lg:h-auto flex items-center left-0 right-0 px-4"}>
-            <div className={"mx-auto w-[90%] max-w-screen-2xl flex flex-col justify-start lg:flex-row gap-[30px] items-center lg:items-center lg:justify-between"}>
+          <div
+            style={{
+              position: "absolute",
+              top: "45%",
+              transform: "translateY(-50%)",
+              left: 0,
+              right: 0,
+              zIndex: 25,
+              pointerEvents: "none",
+            }}
+            className={"flex items-center left-0 right-0 px-4"}
+          >
+            <div
+              className={"mx-auto w-[90%] max-w-screen-2xl flex flex-col justify-start lg:flex-row gap-[30px] items-center lg:items-center lg:justify-between"}
+              style={{ pointerEvents: "auto" }}
+            >
               <div>
                 <h1 className={"text-2xl text-shadow text-center lg:text-left font-semibold text-true-white md:text-4xl lg:text-5xl xl:text-6xl lg:leading-tight"}>
                   <span>
