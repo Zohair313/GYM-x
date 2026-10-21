@@ -176,3 +176,4 @@ The page is a single, long scrolling homepage. From top to bottom it contains:
 ---
 
 *This document is descriptive only. It is intended as a reference for content, structure, and behaviour — not as a technical specification.*
+
