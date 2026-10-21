@@ -427,13 +427,13 @@ export default function App() {
               <div className={"flex mt-[24px] md:mt-[48px] lg:mt-0 mb-[40px] items-center justify-center lg:hidden lg:justify-end w-full sf-hidden"}></div>
               <div className={"space-y-8"}>
                 <p>
-                  {"At Body Factory Karachi, we believe that fitness and wellness\n                  should be more than just a gym membership. That's why we have\n                  created an all-inclusive facility that offers a full\n                  360-degree approach to health and wellness, designed to\n                  support our members' lifestyles and help them achieve a\n                  balance between work and play."}
+                  {"At GYM X, we believe that fitness and wellness\n                  should be more than just a gym membership. That's why we have\n                  created an all-inclusive facility that offers a full\n                  360-degree approach to health and wellness, designed to\n                  support our members' lifestyles and help them achieve a\n                  balance between work and play."}
                 </p>
                 <p>
                   {"Our values are centered around four main areas: Sleep,\n                  Perform, Nourish, and Restore. We understand the importance of\n                  each of these areas and have worked hard to create an\n                  environment that supports and encourages our members to\n                  prioritize them in their lives."}
                 </p>
                 <p>
-                  {"At Body Factory Karachi, we are more than just a gym, we are a\n                  community of like-minded individuals who are dedicated to\n                  leading a healthy, active, and balanced lifestyle. Join us\n                  today and discover the difference that comes with being part\n                  of the Body Factory Karachi community."}
+                  {"At GYM X, we are more than just a gym, we are a\n                  community of like-minded individuals who are dedicated to\n                  leading a healthy, active, and balanced lifestyle. Join us\n                  today and discover the difference that comes with being part\n                  of the GYM X community."}
                 </p>
               </div>
               <div className={"flex flex-col items-center justify-center gap-5 mt-10 md:flex-row md:justify-start"}>
