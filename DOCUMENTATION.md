@@ -1,4 +1,4 @@
-# Body Factory Bali — Engineering & System Architecture Specification
+#GYM-x — Engineering & System Architecture Specification
 
 > **Classification:** Internal Engineering Documentation  
 > **Repository:** [Zohair313/GYM-x](https://github.com/Zohair313/GYM-x)  
@@ -10,7 +10,7 @@
 
 ## 1. System Overview & Engineering Objectives
 
-Body Factory Bali is an enterprise-grade client-side Single Page Application (SPA) re-engineered from an in-situ DOM snapshot into a modern, reactive component hierarchy. The engineering objective was **zero-loss visual and behavioral parity** while liberating the codebase from monolithic snapshot artifacts into a modular CI/CD-driven React ecosystem.
+GYM-x is an enterprise-grade client-side Single Page Application (SPA) re-engineered from an in-situ DOM snapshot into a modern, reactive component hierarchy. The engineering objective was **zero-loss visual and behavioral parity** while liberating the codebase from monolithic snapshot artifacts into a modular CI/CD-driven React ecosystem.
 
 ```mermaid
 graph TD

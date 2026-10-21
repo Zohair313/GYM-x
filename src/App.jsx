@@ -29,19 +29,22 @@ const RawBlock24 = "";
 const RawBlock25 = "";
 
 
+const HERO_BASE = import.meta.env.BASE_URL || "./";
+const HERO_PREFIX = HERO_BASE.endsWith("/") ? HERO_BASE : HERO_BASE + "/";
+
 const HERO_IMAGES = [
-  { src: "/hero/slide-5.webp", alt: "Body Factory Karachi Sauna & Cold Plunge" },
-  { src: "/hero/gym-strength.jpg", alt: "GYM X Elite Strength & Power Racks" },
-  { src: "/hero/slide-7.webp", alt: "GYM X Free Weights & Dumbbells" },
-  { src: "/hero/gym-combat.jpg", alt: "GYM X Boxing Arena & Turf Track" },
-  { src: "/hero/slide-6.webp", alt: "GYM X Cardio & Treadmill Zone" },
-  { src: "/hero/gym-wellness.jpg", alt: "GYM X Outdoor Wellness Sanctuary" },
-  { src: "/hero/slide-2.webp", alt: "GYM X Deadlift & Squat Platforms" },
-  { src: "/hero/gym-studio.jpg", alt: "GYM X Performance Training Studio" },
-  { src: "/hero/slide-1.webp", alt: "GYM X Club Architecture" },
-  { src: "/hero/slide-4.webp", alt: "GYM X Sun Lounge Deck" },
-  { src: "/hero/slide-0.webp", alt: "GYM X Pool Cinema" },
-  { src: "/hero/slide-3.webp", alt: "GYM X Garden Lounge" },
+  { src: `${HERO_PREFIX}hero/slide-5.webp`, alt: "Body Factory Karachi Sauna & Cold Plunge" },
+  { src: `${HERO_PREFIX}hero/gym-strength.jpg`, alt: "GYM X Elite Strength & Power Racks" },
+  { src: `${HERO_PREFIX}hero/slide-7.webp`, alt: "GYM X Free Weights & Dumbbells" },
+  { src: `${HERO_PREFIX}hero/gym-combat.jpg`, alt: "GYM X Boxing Arena & Turf Track" },
+  { src: `${HERO_PREFIX}hero/slide-6.webp`, alt: "GYM X Cardio & Treadmill Zone" },
+  { src: `${HERO_PREFIX}hero/gym-wellness.jpg`, alt: "GYM X Outdoor Wellness Sanctuary" },
+  { src: `${HERO_PREFIX}hero/slide-2.webp`, alt: "GYM X Deadlift & Squat Platforms" },
+  { src: `${HERO_PREFIX}hero/gym-studio.jpg`, alt: "GYM X Performance Training Studio" },
+  { src: `${HERO_PREFIX}hero/slide-1.webp`, alt: "GYM X Club Architecture" },
+  { src: `${HERO_PREFIX}hero/slide-4.webp`, alt: "GYM X Sun Lounge Deck" },
+  { src: `${HERO_PREFIX}hero/slide-0.webp`, alt: "GYM X Pool Cinema" },
+  { src: `${HERO_PREFIX}hero/slide-3.webp`, alt: "GYM X Garden Lounge" },
 ];
 
 export default function App() {
