@@ -334,7 +334,7 @@ export default function App() {
                   </span>
                   <br />
                   <span className={"text-true-white text-3xl md:text-4xl lg:text-5xl xl:text-6xl"}>
-                    {"BODY FACTORY KARACHI"}
+                    {"GYM X"}
                   </span>
                 </h1>
                 <div className={"flex justify-center lg:justify-start"}>
